@@ -33,13 +33,45 @@ template<class T> void print(T x,char ed = '\n') {
 
 void solve()
 {
-    int a,b,c,d;
-    cin >> a >> b >> c;
-    for(int i = 1; i <= a; i++)
+    int ansa = 0;
+    int ansb = 0;
+    int ansc = 0;
+    int a;
+    for(int i = 1; i <= 8; i++)
     {
-        cin >> d;
-        if(d <= b)  cout << b << " ";
-        if(d > b)   cout << c << " ";
+        cin >> a;
+        if(a >= 41)
+        {
+            ansa ++; 
+            if(ansa >= 4)
+            {
+                cout << "3";
+                return ;
+            }    
+        }  
+        if(a >= 63)
+        {
+            ansb ++;
+            if(ansb >= 4)
+            {
+                cout << "8";
+                return ;
+            }
+        }  
+        if(a >= 118)
+        {
+            ansc ++;
+            if(ansc >= 1)
+            {
+                cout << "10";
+                return ;
+            }
+        } 
+        if(a < 61 && a < 41 && a < 118)
+        {
+            cout << "1";
+            return;
+        }
     }
 
 }

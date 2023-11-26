@@ -34,14 +34,19 @@ template<class T> void print(T x,char ed = '\n') {
 void solve()
 {
     int a,b,c,d;
-    cin >> a >> b >> c;
+    read(a);
     for(int i = 1; i <= a; i++)
     {
-        cin >> d;
-        if(d <= b)  cout << b << " ";
-        if(d > b)   cout << c << " ";
+        read(b);
+        read(c);
+        read(d);
+        if(b + c >= 10 || c + d >= 10 || b + d >= 10)
+        {
+            cout << "YES" << '\n';
+        } else {
+            cout << "No" << '\n';
+        }
     }
-
 }
 int main()
 {

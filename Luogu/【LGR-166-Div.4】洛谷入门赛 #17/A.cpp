@@ -33,15 +33,12 @@ template<class T> void print(T x,char ed = '\n') {
 
 void solve()
 {
-    int a,b,c,d;
-    cin >> a >> b >> c;
-    for(int i = 1; i <= a; i++)
-    {
-        cin >> d;
-        if(d <= b)  cout << b << " ";
-        if(d > b)   cout << c << " ";
-    }
-
+    int a,b,r,v,m;
+    cin >> a >> b >> r >> v >> m;
+    int rice = 1 * b * r + 2 * a * (2 * r);
+    int vagetable = 1 * b * v + 2 * a * (3 * v); 
+    int meet = 1 * b * m + 2 * a *(3 * m);
+    cout << rice << " " << vagetable << " " << meet;
 }
 int main()
 {

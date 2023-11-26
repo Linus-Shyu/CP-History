@@ -33,22 +33,29 @@ template<class T> void print(T x,char ed = '\n') {
 
 void solve()
 {
-    int a,b,c,d;
-    cin >> a >> b >> c;
-    for(int i = 1; i <= a; i++)
+    int n;
+    int ans,ans_two = 0;
+    cin >> n;
+    for(int i = 0; i < n; i++)
     {
-        cin >> d;
-        if(d <= b)  cout << b << " ";
-        if(d > b)   cout << c << " ";
+        int a,b;
+        cin >> a >> b;
+        if(a > 10)  continue;
+        if(ans < b)
+        {
+            ans = b;
+            ans_two = i + 1; 
+        }
     }
-
+    cout << ans_two << endl;
 }
 int main()
 {
     ios::sync_with_stdio(0);
     cin.tie(0);
     cout.tie(0);
-    int T = 1;
+    int T;
+    cin >> T;
     while(T--)
     {
         solve();
