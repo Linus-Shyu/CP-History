@@ -8,24 +8,29 @@
 
 其中包括：
 
-|Atcoder| 
+|Atcoder|
 |-|
 |Beginner Contest 322|
-|HHKB Programming Contest 2023(AtCoder Beginner Contest 327)| 
+|HHKB Programming Contest 2023(AtCoder Beginner Contest 327)|
 |Panasonic Programming Contest 2023（AtCoder Beginner Contest 326）|
 |SuntoryProgrammingContest2023（AtCoder Beginner Contest 321）|
 |Toyota Programming Contest 2023#5（AtCoder Beginner Contest 320）|
 |UNIQUE VISION Programming Contest 2023 Autumn(AtCoder Beginner Contest 323)|
 |Ｓｋｙ Inc, Programming Contest 2023（AtCoder Beginner Contest 329）|
 |TOYOTA SYSTEMS Programming Contest 2023(AtCoder Beginner Contest 330)|
+|Toyota Programming Contest 2023#8（AtCoder Beginner Contest 333）|
+|UNIQUE VISION Programming Contest 2023 Christmas (AtCoder Beginner Contest 334)|
+|AtCoder Beginner Contest 335 (Sponsored by Mynavi)|
 
-|CodeForces| 
+|CodeForces|
 |-|
 |Codeforces Round 886 (Div. 4)|
+|Codeforces Round 918 (Div. 4)|
 
 |洛谷|
 |-|
 |【LGR-166-Div.4】洛谷入门赛 #17|
+
 ## 贡献者
 
 LinusShyu（个人开发者）
