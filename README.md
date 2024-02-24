@@ -26,6 +26,7 @@
 |-|
 |Codeforces Round 886 (Div. 4)|
 |Codeforces Round 918 (Div. 4)|
+|Codeforces Round 928 (Div. 4)|
 
 |洛谷|
 |-|
